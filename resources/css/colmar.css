@@ -3,7 +3,9 @@
     font-size: 16px;
 }
 
-header {
+.flex-header {
+    display: inline-block;
+    flex-direction: row;
     height: 64px;
     width: 100%;
     background-image: url(./capston_colmar_assets/capstone_colmar_assets/images/ic-logo.svg);
@@ -27,25 +29,4 @@ header {
     color: lightgray;
     text-transform: uppercase;
     font-weight: 600;
-}
-
-.right {
-    float: right;
-    padding-right: 24px;
-}
-
-.right ul {
-    list-style-type: none;
-    margin: auto;
-}
-
-.right li {
-    display: inline;
-    padding: 16px;
-}
-
-.right li a {
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: gray;
 }
