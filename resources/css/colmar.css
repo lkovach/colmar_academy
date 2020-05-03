@@ -3,30 +3,3 @@
     font-size: 16px;
 }
 
-.flex-header {
-    display: inline-block;
-    flex-direction: row;
-    height: 64px;
-    width: 100%;
-    background-image: url(./capston_colmar_assets/capstone_colmar_assets/images/ic-logo.svg);
-    background-repeat: no-repeat;
-    padding-left: 24px;
-    background-size: 32px;
-}
-
-.colmar {
-    display: inline;
-    font-size: 2rem;
-    color: gray;
-    padding-left: 5px;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-.academy {
-    display: inline;
-    font-size: 2rem;
-    color: lightgray;
-    text-transform: uppercase;
-    font-weight: 600;
-}
