@@ -8,6 +8,7 @@
     flex-direction: row;
     position: fixed;
     height: 64px;
+    width: 100%;
 }
 
 .leftnav {
@@ -23,6 +24,7 @@
     color: gray;
     font-size: 2rem;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .leftnav .academy {
@@ -30,10 +32,12 @@
     color: lightgray;
     font-size: 2rem;
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .rightnav {
     display: inline-flex;
+    justify-content: flex-end;
     position: absolute;
-    padding-right: 24px;
+    font-size: 2rem;
 }
