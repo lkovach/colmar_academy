@@ -3,3 +3,10 @@
     font-size: 16px;
 }
 
+.main-header {
+    height: 64px;
+}
+
+img {
+    height: 50%;
+}
