@@ -3,10 +3,37 @@
     font-size: 16px;
 }
 
-.main-header {
+.navcontainer {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
     height: 64px;
 }
 
-img {
-    height: 50%;
+.leftnav {
+    display: inline-flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 24px;
+}
+
+.leftnav .colmar {
+    display: inline-flex;
+    color: gray;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.leftnav .academy {
+    display: inline-flex;
+    color: lightgray;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.rightnav {
+    display: inline-flex;
+    position: absolute;
+    padding-right: 24px;
 }
