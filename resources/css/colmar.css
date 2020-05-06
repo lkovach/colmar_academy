@@ -35,4 +35,16 @@
 .rightnav {
     display: inline-flex;
     font-size: 2rem;
+    padding-right: 24px;
+}
+
+.rightnav a {
+    padding: 16px;
+    color: gray;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.rightnav li {
+    list-style-type: none;
 }
